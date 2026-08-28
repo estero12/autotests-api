@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI4VDE5OjM0OjIyLjQ2ODQzNCIsInVzZXJfaWQiOiJkMmFlYzgzZS1kNTUwLTQ4OTItYTM4OC0xODliOTZlM2I4YTcifQ.0_fXTOdsj6YBkqov9UmdbDaNOeZB25Ke0UUq_ThWFPg' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Institution when leader read piece.","maxScore":66,"minScore":25,"description":"Suddenly pick scene already. Listen possible war size set.\nFall any goal drop foreign site art half. Dark lose expect.","estimatedTime":"6 weeks","previewFileId":"5481e5b0-2fb1-4366-969d-59157020ef99","createdByUserId":"d2aec83e-d550-4892-a388-189b96e3b8a7"}'

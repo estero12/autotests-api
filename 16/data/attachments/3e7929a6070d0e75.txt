@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI4VDE5OjM0OjIyLjQ2ODQzNCIsInVzZXJfaWQiOiJkMmFlYzgzZS1kNTUwLTQ4OTItYTM4OC0xODliOTZlM2I4YTcifQ.0_fXTOdsj6YBkqov9UmdbDaNOeZB25Ke0UUq_ThWFPg' \
+  -H 'content-length: 336' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Recognize quickly enough thousand.","courseId":"2f3eb12a-d6ef-48a8-b1b2-c0ebee3e8566","maxScore":69,"minScore":20,"orderIndex":49,"description":"Only sound smile assume town wind any. Community middle activity show become.\nHope study particular help much easy. Strong thought clear item which act.","estimatedTime":"1 weeks"}'

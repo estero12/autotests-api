@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI4VDE5OjM0OjIwLjgzNjkwMCIsInVzZXJfaWQiOiIyNTg0OWVmYy1jMTAzLTQ5YzAtYmJkZS1kNWRjNGJiZGE3OTkifQ.bbr_J0CQZ6L1KzrF4s5CoRjW9ILeQmYhd0JJs4cqj-U' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tv community huge hit.","maxScore":92,"minScore":16,"description":"Plant sing see left. Writer product yeah they. Soldier Mr ask action.\nShow help history none program. Alone skill in economy social information well.","estimatedTime":"9 weeks","previewFileId":"08c391b9-6508-4d1b-b3db-69f101720d7d","createdByUserId":"25849efc-c103-49c0-bbde-d5dc4bbda799"}'

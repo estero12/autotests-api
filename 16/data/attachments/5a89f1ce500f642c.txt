@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI4VDE5OjM0OjI1LjE3MjM4MCIsInVzZXJfaWQiOiIxZTZmMDg0MC0xNWQzLTRiYTYtOTRlOS04NzA1MTZhOGZmYjQifQ.oBebz9b5q9ZleAXntsnXnunapXuY3jUdKZFrTHDbyEs' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Together son official wait with fire fund choice.","maxScore":50,"minScore":2,"description":"Follow subject red kid interview glass.\nSpend weight campaign same claim leave ground.\nBall white glass drop. Suffer both main move whose. Begin policy pattern treat nor know.","estimatedTime":"3 weeks","previewFileId":"88e7d123-0679-4e0c-9599-714f0c599f1a","createdByUserId":"1e6f0840-15d3-4ba6-94e9-870516a8ffb4"}'

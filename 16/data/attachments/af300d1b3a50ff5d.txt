@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI4VDE5OjM0OjI0LjEwODIyMiIsInVzZXJfaWQiOiJlYWQyOTE5NC1jMTUxLTQ4NWItYTAxMS1mY2ZhMDgxODNkMTEifQ.YZ88C-K-L9hEfH7EZn4Wp_hrzNANJL19uQPWfO04CpI' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Center American area must talk.","maxScore":50,"minScore":21,"description":"Story board action task party.\nPerformance kitchen group age. Increase reason lawyer be suddenly short paper carry. Statement understand seat.","estimatedTime":"2 weeks","previewFileId":"a0ab73eb-a672-4eca-bc12-ec96a028053a","createdByUserId":"ead29194-c151-485b-a011-fcfa08183d11"}'

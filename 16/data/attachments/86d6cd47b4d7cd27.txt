@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/1caa04d6-62e2-4299-8be9-a56206092411' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI4VDE5OjM0OjE5LjgyOTM3MyIsInVzZXJfaWQiOiI3YWNkMWFjZC05MWUyLTQ3NTQtOWZkMi03N2JiNDlkMTE5ZTQifQ.l3dYlnVsu_TP_mA7j_4biNR8-9WKvroTZn4wvs6Li2w' \
+  -H 'content-length: 294' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Other television election share dark few sign.","maxScore":93,"minScore":12,"description":"Pressure such understand rock. Spring material forget form generation record owner.\nDespite arm newspaper probably. Natural house customer occur lead occur ability.","estimatedTime":"3 weeks"}'

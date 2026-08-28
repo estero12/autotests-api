@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI4VDE5OjM0OjIzLjgwMDk1OCIsInVzZXJfaWQiOiIxMDM4YWZkOS1jNDRjLTQzNWMtYjcxZi0wODJjMjA1ZTExYmYifQ.4iFlbDqvp5mtf1rM7RfkEj3QfFvtWMmf834GeIHEvsQ' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Everyone present deep person.","maxScore":85,"minScore":19,"description":"Benefit crime hour chance include modern. Middle recently nothing all information. Opportunity professional bar hour allow. Nice process president his.","estimatedTime":"6 weeks","previewFileId":"8af671cc-02eb-4d89-aae2-47408ad43579","createdByUserId":"1038afd9-c44c-435c-b71f-082c205e11bf"}'
