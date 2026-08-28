@@ -20,6 +20,9 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4  # Используем GitHub Action для клонирования репозитория
 
+      - name: Install findutils (xargs)
+        run: apt-get update && apt-get install -y findutils
+
       # 2. Шаг для установки Python на виртуальной машине
       - name: Set up Python
         uses: actions/setup-python@v5  # Используем GitHub Action для установки Python
