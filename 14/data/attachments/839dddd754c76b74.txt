@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI4VDE5OjE1OjUzLjY0MDYwMiIsInVzZXJfaWQiOiIzYTVlMDQwZS1mYmM2LTQ5NTAtOTRhOS01NWZmYjMwZmEwNzkifQ.7iUVnyBGjdDAmwxyPB9ju_uLWrHDZnJR61BE2TRhN3k' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Difference sit management speak data.","maxScore":72,"minScore":25,"description":"Bed since see figure. Nice line how.\nRecently room subject character summer forget. Along factor throw nation work bring effect. Yes situation himself standard add I.","estimatedTime":"10 weeks","previewFileId":"015b8b44-5f21-4d67-bb95-d66df6cac591","createdByUserId":"3a5e040e-fbc6-4950-94a9-55ffb30fa079"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI4VDE5OjE1OjQ5LjIxMjY0NiIsInVzZXJfaWQiOiJkM2YwYWRiMi0xNGUxLTQzNDItOGZlYS0zNzZkZjZiODJlZDEifQ.gcJG34KTLRJV6VV5VlMjgvikQwnYENzxpUIUbxJH61s' \
+  -H 'content-length: 437' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Yet energy century price until such table.","maxScore":79,"minScore":25,"description":"Visit movement put executive themselves account because. Between fine adult lay admit.\nToward money leader choice. Arrive majority difficult go major suggest better how. Nice house western newspaper.","estimatedTime":"5 weeks","previewFileId":"7808abe0-1e4b-4e25-98ab-f8107e271dee","createdByUserId":"d3f0adb2-14e1-4342-8fea-376df6b82ed1"}'

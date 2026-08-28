@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI4VDE5OjE1OjQ4LjU3NjQwNiIsInVzZXJfaWQiOiI3NzJlNjI4Yi1iNjgwLTQ1NWUtYjcxOS00OWM1NDZiOWFlNWMifQ.n_W2uuCL-L4t5lxA2ZNr4JUJyVf_Dnbyw7P-LSy5qTw' \
+  -H 'content-length: 336' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Leg act summer example result Mr possible.","maxScore":70,"minScore":6,"description":"Over kitchen save Mrs.\nA institution coach either. Offer phone discover apply. Cell student health.","estimatedTime":"7 weeks","previewFileId":"13b3e229-9c2a-4e42-a430-50a3b3367434","createdByUserId":"772e628b-b680-455e-b719-49c546b9ae5c"}'

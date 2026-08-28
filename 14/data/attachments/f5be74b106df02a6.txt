@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:95 Check create course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Have cut threat simply attack standard happen.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 56
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 29
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Nature wait can animal. Help assume college than off deep.
+Radio open when whatever.
+Teach despite girl major. Like for myself eye as. Personal now long serve late can speak.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 5 weeks
+INFO     BASE_ASSERTIONS:base.py:38 Check that "file_id" equals to cc5333cd-5aa1-414b-a23d-3ecf6aa1e4df
+INFO     BASE_ASSERTIONS:base.py:38 Check that "user_id" equals to 8e51a62a-3d96-48f2-b527-0afaf254d82d
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validating JSON schema

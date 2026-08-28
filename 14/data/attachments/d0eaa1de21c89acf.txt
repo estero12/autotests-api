@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/867bafda-7f27-4873-bf27-64bad61e09f5' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI4VDE5OjE1OjQ4LjU3NjQwNiIsInVzZXJfaWQiOiI3NzJlNjI4Yi1iNjgwLTQ1NWUtYjcxOS00OWM1NDZiOWFlNWMifQ.n_W2uuCL-L4t5lxA2ZNr4JUJyVf_Dnbyw7P-LSy5qTw' \
+  -H 'content-length: 290' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Two class admit magazine identify over.","maxScore":89,"minScore":7,"description":"Argue upon upon home various surface fight. Speak back too seek matter suddenly may. Goal way season.\nTwo recent street look quite. After forget cause really recently.","estimatedTime":"10 weeks"}'

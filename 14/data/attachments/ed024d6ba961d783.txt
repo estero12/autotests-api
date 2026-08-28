@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI4VDE5OjE1OjUwLjE0MzkzMSIsInVzZXJfaWQiOiI4ZTUxYTYyYS0zZDk2LTQ4ZjItYjUyNy0wYWZhZjI1NGQ4MmQifQ.QdVMkjL0TiwhQsvssCCcdcV1FHndEUOQIuddtiiMlRQ' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Have cut threat simply attack standard happen.","maxScore":56,"minScore":29,"description":"Nature wait can animal. Help assume college than off deep.\nRadio open when whatever.\nTeach despite girl major. Like for myself eye as. Personal now long serve late can speak.","estimatedTime":"5 weeks","previewFileId":"cc5333cd-5aa1-414b-a23d-3ecf6aa1e4df","createdByUserId":"8e51a62a-3d96-48f2-b527-0afaf254d82d"}'

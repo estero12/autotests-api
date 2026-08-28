@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI4VDE5OjE1OjUxLjc0ODA1NCIsInVzZXJfaWQiOiJmZTNlNDdkZS01NDk4LTRmZWMtOTdiMC1kMmFjYTBhNzUxOGMifQ.xKH_0IaCjYTwyiC6TUmtY3hTcloRCZctXCNWSq6xcUs' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Behind two face court bag grow system finally.","maxScore":84,"minScore":27,"description":"Ball scientist little television source stuff him especially. Government collection personal prove alone. Pay allow speech one majority adult.","estimatedTime":"6 weeks","previewFileId":"d0b2b81a-90fd-4e8b-8c78-eb3233402438","createdByUserId":"fe3e47de-5498-4fec-97b0-d2aca0a7518c"}'
