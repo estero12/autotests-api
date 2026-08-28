@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI4VDIwOjAwOjQwLjEyMTQzNCIsInVzZXJfaWQiOiIxMmRmZDE1ZC1kZDZhLTQxZDMtODk1Mi01OThkMDk3OTljNzQifQ._HN5Uv_oQs_QdRzRy094l6E_PT6CN08t_FEnmRvNmiQ' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Possible role difficult develop table significant follow include.","maxScore":56,"minScore":12,"description":"Way big strategy course. Her at even.\nReflect least number war popular chance loss. Example write what yourself total successful across carry.","estimatedTime":"4 weeks","previewFileId":"64e88177-7cd1-4d44-80ca-bf79d6e1d380","createdByUserId":"12dfd15d-dd6a-41d3-8952-598d09799c74"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI4VDIwOjAwOjM4LjAxMDEyNSIsInVzZXJfaWQiOiIyYjEzMWE3YS1mMjlmLTRhMzYtYWFmYy05ODU2Zjk0MTg1M2MifQ.clxhAD-k1Avss6Og_FmCeKViBgtaM3iAKPtkRBLJw4Q' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Full hit interesting mouth more five thousand among.","maxScore":68,"minScore":20,"description":"But name player heavy. Seek industry need chance.\nHuge everybody resource. Soon bill approach friend air. To approach per along particular outside blood major.","estimatedTime":"4 weeks","previewFileId":"fec98825-6dc2-4a62-9905-cce1f39a81f9","createdByUserId":"2b131a7a-f29f-4a36-aafc-9856f941853c"}'

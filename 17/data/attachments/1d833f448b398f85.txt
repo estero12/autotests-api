@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI4VDIwOjAwOjM4LjcyMzgxMCIsInVzZXJfaWQiOiIyZDQ1ZGRkMS02NWQxLTRmMGMtODMzOS0xMWVhMDllYWM1ZjYifQ.oVsZrNHJDQ-A-grESRRtb_jOqctfji4gS9q8He143lM' \
+  -H 'content-length: 277' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Why a add focus.","maxScore":77,"minScore":14,"description":"Of do care carry give per show. Stuff identify sign man fast key.","estimatedTime":"10 weeks","previewFileId":"b0255a4e-d9a3-49ff-99ac-1ba61b248c1b","createdByUserId":"2d45ddd1-65d1-4f0c-8339-11ea09eac5f6"}'

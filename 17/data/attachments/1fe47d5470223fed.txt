@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI4VDIwOjAwOjM2LjgxNTI5MyIsInVzZXJfaWQiOiI2MDM3ZjEyYS05YjRjLTQxZjUtOWRhMS1mMDlkYzNlODhiNTUifQ.QeYM3ad_VioteKzmtCeNs31mQxOxj3IU4Uh-waNyFlk' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"South season professional down executive short old.","maxScore":82,"minScore":18,"description":"Pattern heart necessary our sense ten carry direction. Nation service spring plant successful behind instead. Environment goal certainly from pass election.","estimatedTime":"10 weeks","previewFileId":"636456f5-3e39-4dfa-ae8b-1b50d48a1810","createdByUserId":"6037f12a-9b4c-41f5-9da1-f09dc3e88b55"}'

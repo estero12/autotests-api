@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI4VDIwOjAwOjQyLjUxODE4OCIsInVzZXJfaWQiOiIwY2RiYWYwMS05YmJkLTQxYzgtODJhZC02ODJkYWE3YWUwMTQifQ.JOHMux9p1Tggqt0E1tu4i0pjYJl-eRsvQOICPZ_CXmo' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Happen though up continue leg raise.","maxScore":87,"minScore":11,"description":"Happen three right vote traditional key. Matter whose program beyond skill try general. Garden for recently time.","estimatedTime":"10 weeks","previewFileId":"cba25ccd-23ec-4498-b91f-d46065e9603a","createdByUserId":"0cdbaf01-9bbd-41c8-82ad-682daa7ae014"}'

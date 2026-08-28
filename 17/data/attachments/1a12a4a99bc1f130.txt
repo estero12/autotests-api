@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI4VDIwOjAwOjQwLjQwNDE1NiIsInVzZXJfaWQiOiIwMTIwZDBmNy02YTM0LTQ1MTgtYmE5Yi0zODY4MzdjNjg4NjQifQ.cGSE8ma-c9i0y-RwL_-_tHVZ4Senp950ozuX4LYpfOg' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Minute feel home feel movement edge.","maxScore":69,"minScore":2,"description":"Daughter brother between wind nature reveal. Smile strategy other clearly study without. Still serious activity rest.\nOutside year fly both. Fear ground author nice medical summer.","estimatedTime":"3 weeks","previewFileId":"b3810c6c-554a-4d09-a835-8ac7b701f4f1","createdByUserId":"0120d0f7-6a34-4518-ba9b-386837c68864"}'

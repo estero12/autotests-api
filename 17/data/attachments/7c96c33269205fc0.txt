@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI4VDIwOjAwOjQzLjE0MjU4NyIsInVzZXJfaWQiOiIzZjI5M2VhZi1jMTRhLTRmOGQtODhlZS1hNzQyODJmNTcxNzQifQ.pMJ513n5NxhhvU1tMDIOLvuxz6twFE-sWTovy-rWq3c' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Law step south enter boy stop health.","maxScore":61,"minScore":19,"description":"Property raise way special according dream wrong. Song draw past Republican role dark house. Site traditional while treat listen half.","estimatedTime":"6 weeks","previewFileId":"5e835435-4b60-415b-9f04-dcdf83ffcbe7","createdByUserId":"3f293eaf-c14a-4f8d-88ee-a74282f57174"}'
