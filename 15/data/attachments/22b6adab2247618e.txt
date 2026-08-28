@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI4VDE5OjMxOjE2LjU1NDA1NCIsInVzZXJfaWQiOiIwZWY1NTNlMi0wZTZjLTQ2MzctYTE1Ny1kMjJiNzlhYzk2YTYifQ.CwXb17ho9Eery_3NrTRWOYHD8CGG0TcRbcVbUW32A_M' \
+  -H 'content-length: 328' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Stuff bill partner.","maxScore":75,"minScore":17,"description":"View clear know weight number admit myself. On full law protect care walk foot. Source consider blood remain cell.","estimatedTime":"7 weeks","previewFileId":"17a39068-23cf-41ae-9738-9bfc203c0fb3","createdByUserId":"0ef553e2-0e6c-4637-a157-d22b79ac96a6"}'

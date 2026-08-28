@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI4VDE5OjMxOjE1LjMyNjEwNiIsInVzZXJfaWQiOiIzMWI0NzdhNy04YWVhLTQyMjMtODcyOC1iODQyZWZkNGUzNzAifQ.z8ulAh72TEm05nnkk6Fz9Fd4mUifLuUNl8NQcedKcRM' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nature sell treat determine.","maxScore":74,"minScore":6,"description":"Executive seat science start significant. Mean suddenly water support. Concern rate I together each director not.","estimatedTime":"1 weeks","previewFileId":"7688d62a-7be8-4efb-a624-6e37d1e7e81a","createdByUserId":"31b477a7-8aea-4223-8728-b842efd4e370"}'

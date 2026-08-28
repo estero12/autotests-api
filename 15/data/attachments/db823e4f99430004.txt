@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI4VDE5OjMxOjE3LjcxNTEzMiIsInVzZXJfaWQiOiJmYWVlMGZjOS1jNjcyLTQ2OGYtODMyYS02MzEyMTAxZTA1MTkifQ.Lsuq4qns19fi5KgcV_l7jxK7vQaxtd1rZVgN0IOn9sY' \
+  -H 'content-length: 436' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Note house nation thus reduce listen social.","maxScore":77,"minScore":7,"description":"Its public take dark politics six democratic. Task produce including doctor mind continue. Without point finish.\nDevelopment you reach century. Across born tonight. Both street although idea every.","estimatedTime":"1 weeks","previewFileId":"7eff2673-ce77-469a-bfc4-75e6fbb66425","createdByUserId":"faee0fc9-c672-468f-832a-6312101e0519"}'

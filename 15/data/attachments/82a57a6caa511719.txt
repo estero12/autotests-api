@@ -1,0 +1,26 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises/90cbe2f5-89f2-4fc8-b660-a1d7f136bc9c
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises/90cbe2f5-89f2-4fc8-b660-a1d7f136bc9c
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:64 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:43 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to 90cbe2f5-89f2-4fc8-b660-a1d7f136bc9c
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Prepare body serve last suffer suggest current water.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to a06c2385-10e2-4192-aa80-fcbb47eeab45
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 29
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 51
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 72
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Official big see list how necessary choose. Practice someone water crime.
+Side just relate forward allow send election.
+Argue production age thing. Call player stop drop under plan.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 2 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validating JSON schema

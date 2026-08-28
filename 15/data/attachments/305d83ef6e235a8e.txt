@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI4VDE5OjMxOjE3LjEzNDEzMSIsInVzZXJfaWQiOiI1NDgyY2MwMy00ZGU3LTQ2MzctODMxMS03OWU4OTY3ZGZkN2UifQ._OUf_lN8iNKgaT2MPdbJSSHePs1GAI3yjNh7p6qqYNA' \
+  -H 'content-length: 343' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Into religious speak public south site upon.","maxScore":61,"minScore":19,"description":"On method expert anything successful water manager manage. Show benefit speak. Method dream dream movie.","estimatedTime":"8 weeks","previewFileId":"4c2589a1-5566-4a43-bd20-ad703dc3fe43","createdByUserId":"5482cc03-4de7-4637-8311-79e8967dfd7e"}'

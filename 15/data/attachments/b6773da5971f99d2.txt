@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/df43f2aa-b287-4584-aed6-b28a2992f718' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI4VDE5OjMxOjE1LjMyNjEwNiIsInVzZXJfaWQiOiIzMWI0NzdhNy04YWVhLTQyMjMtODcyOC1iODQyZWZkNGUzNzAifQ.z8ulAh72TEm05nnkk6Fz9Fd4mUifLuUNl8NQcedKcRM' \
+  -H 'content-length: 249' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Break yet middle look player man establish watch.","maxScore":99,"minScore":28,"description":"Some audience score develop high suddenly first religious. Like though list call. Son region discuss particular best.","estimatedTime":"9 weeks"}'

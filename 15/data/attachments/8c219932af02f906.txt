@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI4VDE5OjMxOjE5LjU0NjE2MiIsInVzZXJfaWQiOiI5YWMxODA5ZC01MjliLTRlYzAtOTk5Mi01NjVhNjE3YmI0ODMifQ.xTzayE9HNF_jPYOCH0fNdm12i-brFqDv8y-FukUJJdI' \
+  -H 'content-length: 353' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Story fund board response deal lot.","maxScore":67,"minScore":4,"description":"Do life remember house note. Himself reason themselves discussion kid role office. Base poor page defense shake sit father.","estimatedTime":"10 weeks","previewFileId":"d269e9a9-089b-49f1-bcd9-bc927a904462","createdByUserId":"9ac1809d-529b-4ec0-9992-565a617bb483"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI4VDE5OjMxOjE4LjM3NDY5NCIsInVzZXJfaWQiOiJlNjRkYzhjMi0zMWU0LTRmNzctYTE1ZC1hMGQ0M2ZlZDlkMjcifQ.LDtqD1cgwqhpT-EGVM85IMv0ih44MtGNZsK9TbaKtu4' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Through student none about focus politics health animal.","maxScore":89,"minScore":17,"description":"Professional serve son program candidate. Hard society there usually after. Morning daughter teacher apply skill recognize manager take.","estimatedTime":"6 weeks","previewFileId":"ea373a3f-dd9e-4400-96ff-32fbfecbc472","createdByUserId":"e64dc8c2-31e4-4f77-a15d-a0d43fed9d27"}'

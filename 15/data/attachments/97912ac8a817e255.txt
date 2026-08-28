@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI4VDE5OjMxOjE1LjkxMTUwNCIsInVzZXJfaWQiOiJiZmVhYTI0Yy1hZjk5LTQ1OTUtOTIwYS1hMjY5NGU0MWU4MDkifQ.6zqogensMr9X9YlBctXSnXjTHbep8b8ZA558WixAXJI' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Understand smile other rather amount consider.","maxScore":91,"minScore":21,"description":"Head scientist stage glass call bag and.\nShe wide treat decision garden left customer. Discover present present. Treatment scene himself short evidence house.","estimatedTime":"6 weeks","previewFileId":"8a04b3f0-8939-4bd9-b9cb-95db9510c93d","createdByUserId":"bfeaa24c-af99-4595-920a-a2694e41e809"}'

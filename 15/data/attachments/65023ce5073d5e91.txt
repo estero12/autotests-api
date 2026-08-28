@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI4VDE5OjMxOjE4LjM3NDY5NCIsInVzZXJfaWQiOiJlNjRkYzhjMi0zMWU0LTRmNzctYTE1ZC1hMGQ0M2ZlZDlkMjcifQ.LDtqD1cgwqhpT-EGVM85IMv0ih44MtGNZsK9TbaKtu4' \
+  -H 'content-length: 385' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Prepare body serve last suffer suggest current water.","courseId":"a06c2385-10e2-4192-aa80-fcbb47eeab45","maxScore":51,"minScore":29,"orderIndex":72,"description":"Official big see list how necessary choose. Practice someone water crime.\nSide just relate forward allow send election.\nArgue production age thing. Call player stop drop under plan.","estimatedTime":"2 weeks"}'
