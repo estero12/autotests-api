@@ -20,7 +20,7 @@ def assert_create_exercise_response(actual: CreateExerciseResponseSchema, expect
     :param expected: Данные запроса на создание упражнения
     :return: None
     """
-    logger.log("Check create exercise response")
+    logger.info("Check create exercise response")
 
     assert_equal(actual.exercise.title, expected.title, "title")
     assert_equal(actual.exercise.min_score, expected.min_score, "min_score")
@@ -40,7 +40,7 @@ def assert_exercise(actual: ExerciseSchema, expected: ExerciseSchema):
     :param expected: Ожидаемые данные упражнения
     :return: None
     """
-    logger.log("Check exercise")
+    logger.info("Check exercise")
 
     assert_equal(actual.id, expected.id, "id")
     assert_equal(actual.title, expected.title, "title")
@@ -61,7 +61,7 @@ def assert_get_exercise_response(actual: GetExerciseResponseSchema, expected: Cr
     :param expected: Ответ на создание упражнения
     :return: None
     """
-    logger.log("Check get exercise response")
+    logger.info("Check get exercise response")
 
     assert_exercise(actual=actual.exercise, expected=expected.exercise)
 
@@ -75,7 +75,7 @@ def assert_update_exercise_response(actual: UpdateExerciseResponseSchema, expect
     :param expected: Данные запроса на обновление упражнения
     :return: None
     """
-    logger.log("Check update exercise response")
+    logger.info("Check update exercise response")
 
     if expected.title is not None:
         assert_equal(actual.exercise.title, expected.title, "title")
@@ -99,7 +99,7 @@ def assert_exercise_not_found_response(actual: InternalErrorResponseSchema):
     :param actual: Фактический ответ.
     :raises AssertionError: Если фактический ответ не соответствует ошибке "Exercise not found"
     """
-    logger.log("Check exercise not found response")
+    logger.info("Check exercise not found response")
 
     expected = InternalErrorResponseSchema(details="Exercise not found")
     assert_internal_error_response(actual, expected)
@@ -117,7 +117,7 @@ def assert_get_exercises_response(
     :param create_exercise_responses: Список API ответов при создании заданий.
     :raises AssertionError: Если данные заданий не совпадают.
     """
-    logger.log("Check get exercises response")
+    logger.info("Check get exercises response")
 
     assert_length(get_exercises_response.exercises, create_exercise_responses, "exercises")
 
